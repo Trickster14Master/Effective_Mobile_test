@@ -1,0 +1,9 @@
+[Unit]
+Description=запуск при htcnfhnt
+
+[Service]
+Type=oneshot
+ExecStart=/home/skript/script.sh
+
+[Install]
+WantedBy=multi-user.target

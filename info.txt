@@ -1,0 +1,5 @@
+копируем testservis.service в /etc/systemd/system/, запускаем testservis
+	sysctl enable testservis, 
+после чего настраиваем crontab
+	crontab -e, 
+вписываем * * * * * /home/skript/script.sh
